@@ -1,1 +1,48 @@
-Hello World
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class ="Header">
+    <h1> SupermarioSpel - Kul! </h1>
+  </div>
+  <div class="Main_Container">
+    <img class="slide_image" src="1.jpg" style="width:100%">
+    <img class="slide_image" src="2.jpg" style="width:100%">
+    <img class="slide_image" src="3.jpg" style="width:100%">
+    <img class="slide_image" src="4.jpg" style="width:100%">
+
+    <a class="button_left" onclick="RightorLeft(-1)">&#10094;</a>
+    <a class="button_right" onclick="RightorLeft(1)">&#10095;</a>
+  </div>
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function RightorLeft(n)
+  {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("slide_image");
+    if (n > x.length)
+    {
+      slideIndex = 1
+    }
+    if (n < 1)
+    {
+      slideIndex = x.length;
+    }
+    for (i = 0; i < x.length; i++)
+    {
+      // Gömmer alla bilder förutom den som ska visas.
+       x[i].style.display = "none";
+    }
+    // Visar den bilden som ska visas.
+    x[slideIndex-1].style.display = "block";
+  }
+  </script>
+</body>
+</html>

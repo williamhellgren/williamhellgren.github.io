@@ -1,0 +1,17 @@
+div.Main_Container
+{
+  margin-top: -30px;
+  height: 75vh;
+}
+
+div.header
+{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+a.button_left:hover
+{
+  background-color: black;
+}
