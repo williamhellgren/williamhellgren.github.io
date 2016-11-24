@@ -156,3 +156,56 @@ div.banner2
   background: url('6.jpg') center 0 no-repeat fixed;
   height: 30%;
 }
+img.standing_block
+{
+  position: absolute;
+  margin-top: 30%;
+  margin-left:10%;
+  float: left;
+  -webkit-box-shadow: 0 0 20px #333;
+  box-shadow: 0 0 20px #333;
+  z-index: -1;
+}
+img.player
+{
+  position: absolute;
+  margin-left: 13%;
+  margin-top: 23.3%;
+  z-index: -1;
+}
+
+div.body_about
+{
+  margin-left: 24%;
+  margin-top: 10%;
+  -webkit-box-shadow: 0 0 20px #333;
+  box-shadow: 0 0 20px #333;
+  background: url('6.png') center 0 repeat;
+  height: 1000px;
+}
+
+div.Header_about
+{
+  position: absolute;
+  border-radius: 30;
+  right: 5%;
+  margin-top: -8%;
+  font-size: 30px;
+  background-color: brown;
+  opacity: 0.6;
+  width: 43%;
+  text-align: center;
+  box-shadow: 15px 0px 40px black;
+  z-index: -1;
+}
+
+div.body_about > h1
+{
+  text-align: center;
+}
+p.test
+{
+  position: absolute;
+  left: 40%;
+  width: 50%;
+}
