@@ -7,18 +7,60 @@
     <h1> SupermarioSpel - Kul! </h1>
   </div>
   <div class="Main_Container">
-    <img class="slide_image" src="1.jpg" style="width:100%">
-    <img class="slide_image" src="2.jpg" style="width:100%">
-    <img class="slide_image" src="3.jpg" style="width:100%">
-    <img class="slide_image" src="4.jpg" style="width:100%">
-
-    <a class="button_left" onclick="RightorLeft(-1)">&#10094;</a>
-    <a class="button_right" onclick="RightorLeft(1)">&#10095;</a>
+    <img class="slide_image" src="1.png">
+    <img class="slide_image" src="3.png">
+    <img class="slide_image" src="4.png">
+    <a>
+      <img class="download" src="5.png">
+    </a>
+    <a class="button_left" onclick="RightorLeft(-1)"><-</a>
+    <a class="button_right" onclick="RightorLeft(1)">-></a>
   </div>
+  <div style="height:1%;"></div>
+    <center>
+    <a class ="Headline">
+    <p style="margin-top:4%;">  ONE </p>
+    </a>
+    <a class ="Headline">
+    <p style="margin-top:4%;">  TWO</p>
+    </a>
+    <a class ="Headline">
+    <p style="margin-top:4%;">  THREE</p>
+    </a>
+    <a class ="Headline">
+      <p style="margin-top:4%;"> FOUR</p>
+    </a>
+    </center>
+    <div style="height:120px;"></div>
+    <div class="banner1">
+    <img class ="first_image" src="1.png">
+    <div class ="text_first_image">
+      <p> TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+          TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+          TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+          TEXT TEXT TEXT TEXT TEXT TEXT
+          TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+          TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+     </p>
+    </div>
+  </div>
+  <div style="height: 20px;"></div>
+  <div class="banner2">
+    <div class ="text_second_image">
+      <p> TEST TEST TEST TEST TEST
+        TEST TEST TEST TEST TEST
+        TEST TEST TEST TEST TEST
+        TEST TEST TEST TEST TEST TEST
+        TEST TEST
+      </p>
+
+  </div>
+  <img class ="second_image" src="2.png">
+</div>
   <script>
   var slideIndex = 1;
   showDivs(slideIndex);
-
+s
   function RightorLeft(n)
   {
     showDivs(slideIndex += n);

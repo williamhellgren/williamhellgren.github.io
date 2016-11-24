@@ -1,17 +1,138 @@
+body
+{
+  background-image: url("6.png");
+  background-repeat: repeat;
+}
+
 div.Main_Container
 {
   margin-top: -30px;
   height: 75vh;
+  width: 100%;
+    box-shadow: 15px 0px 40px black;
 }
-
 div.header
 {
-  margin-top: 20px;
+  margin-top: 25px;
   text-align: center;
   font-size: 30px;
 }
-
 a.button_left:hover
 {
   background-color: black;
+}
+a.button_right:hover
+{
+  background-color: blue;
+}
+img.download
+{
+  position: absolute;
+  right: 3%;
+  top: 16%;
+  width: 300px;
+  height: auto;
+}
+a.button_left
+{
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  font-size: 60;
+  opacity: 0.7;
+  background-color: gray;
+  border-radius: 40px;
+  padding: 10px;
+}
+a.button_right
+{
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  font-size: 60;
+  opacity: 0.7;
+  background-color: gray;
+  border-radius: 40px;
+  padding: 10px;
+}
+div.Main_Container > img
+{
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: 100%;
+}
+a.Headline
+{
+  margin-top: 1px;
+  width: 24.7%;
+  float: left;
+  opacity: 0.5;
+  height: 50px;
+  background-color: green;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 15px 15px 40px black;
+}
+a.Headline:hover
+{
+  background-color: black;
+}
+div.first_set
+{
+}
+img.first_image
+{
+  box-shadow: 15px 15px 20px black;
+  position: absolute;
+  left: 10%;
+  width: 35%;
+  height: auto;
+  margin-top: 50px;
+  margin: -40px 0;
+}
+
+div.text_first_image
+{
+  position: absolute;
+  right: 18%;
+  width: 30%;
+  margin-top: 5%;
+  text-align: center;
+}
+div.text_second_image
+{
+  position: absolute;
+  left: 18%;
+  margin-top: 6%;
+  width: 30%;
+  text-align: center;
+}
+img.second_image
+{
+  box-shadow: 15px 15px 20px black;
+  position: absolute;
+  right: 10%;
+  width: 35%;
+  margin-top: 5%;
+  margin: -40px 0;
+}
+div.banner1
+{
+  box-shadow: 15px 15px 20px black;
+  text-align: center;
+  margin: 40px 0;
+  width: 100%;
+  background: brown;
+  height: 30%;
+}
+div.banner2
+{
+  box-shadow: 15px 15px 20px black;
+  text-align: center;
+  margin: 40px 0;
+  width: 100%;
+  background: brown;
+  height: 30%;
 }
