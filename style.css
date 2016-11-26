@@ -233,3 +233,13 @@ div.body_about_textholder
   border-width: 1px;
   opacity: 0.7;
 }
+
+iframe.video
+{
+  position: absolute;
+  left: 34%;
+  width: 60%;
+  height: 50%;
+  -webkit-box-shadow: 0 0 40px #333;
+  box-shadow: 0 0 40px #333;
+}
