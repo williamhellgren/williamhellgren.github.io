@@ -42,7 +42,7 @@ img.download
   position: absolute;
   right: 3%;
   top: 20%;
-  width: 100px;
+  width: 8%;
   height: auto;
   opacity: 0.6;
 }
@@ -122,14 +122,14 @@ div.text_first_image
   position: absolute;
   right: 18%;
   width: 30%;
-  margin-top: 3%;
+  margin-top: 2%;
   text-align: center;
 }
 div.text_second_image
 {
   position: absolute;
   left: 18%;
-  margin-top: 4%;
+  margin-top: 3%;
   width: 30%;
   text-align: center;
 
