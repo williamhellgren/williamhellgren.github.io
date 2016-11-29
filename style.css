@@ -8,15 +8,16 @@ div.Main_Container
   margin-top: -30px;
   height: 75vh;
   width: 100%;
-    box-shadow: 15px 0px 40px black;
+  box-shadow: 15px 0px 40px black;
 }
 div.Header
 {
-  border-radius: 30;
+  -webkit-border-top-left-radius: 10%;
+-webkit-border-top-right-radius: 10%;
   position: absolute;
   left: 5%;
-  margin-top: 25px;
-  font-size: 30px;
+  margin-top: 1%;
+  font-size: 190%;
   background-color: brown;
   opacity: 0.6;
   width: 43%;
@@ -74,20 +75,25 @@ div.Main_Container > img
   max-height: 100%;
   height: auto;
   width: 100%;
+  height: 100%;
 }
 a.Headline
 {
   margin-top: -0.7%;
-  width: 24.7%;
+  width: 25%;
   float: left;
   opacity: 0.5;
-  height: 50px;
+  height: 6%;
   background-color: green;
-  border-style: solid;
-  border-width: 2px;
+
   box-shadow: 15px 15px 40px black;
   text-decoration: none;
   color: black;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  -webkit-box-shadow: 1 0 5px 10px #000 inset;
+  -moz-box-shadow: 1 0 5px 10px #000 inset;
+  box-shadow: 1 0 5px 10px #000 inset;
 }
 a.Headline:hover
 {
@@ -102,8 +108,13 @@ img.first_image
   position: absolute;
   left: 10%;
   width: 35%;
-  top: 113%;
   margin: -40px 0;
+  -webkit-border-top-left-radius: 20%;
+-webkit-border-top-right-radius: 20%;
+-webkit-border-bottom-left-radius: 20%;
+-webkit-border-bottom-right-radius: 20%;
+  margin-top: -4%;
+  float: left;
 }
 
 div.text_first_image
@@ -121,6 +132,7 @@ div.text_second_image
   margin-top: 4%;
   width: 30%;
   text-align: center;
+
 }
 img.second_image
 {
@@ -128,8 +140,12 @@ img.second_image
   position: absolute;
   right: 10%;
   width: 35%;
-  top: 155%;
   margin: -40px 0;
+  -webkit-border-top-left-radius: 20%;
+-webkit-border-top-right-radius: 20%;
+-webkit-border-bottom-left-radius: 20%;
+-webkit-border-bottom-right-radius: 20%;
+  margin-top: -4%;
 }
 div.banner1
 {
@@ -144,7 +160,7 @@ div.banner1
 div.banner_first_row
 {
   background: url('7.png') center 0 repeat-x;
-  height: 30px;
+  height: 10%;
 }
 div.banner2
 {
@@ -222,16 +238,20 @@ a:visited
 
 div.body_about_textholder
 {
+  z-index: 2;
   text-align: center;
-  height: 900px;
+  height: 600px;
   border-radius: 30;
   width: 70%;
-  background-color: #cc6600;
+  background-color: #ff884d;
   margin-right: auto;
   margin-left: auto;
   border-style: solid;
   border-width: 1px;
-  opacity: 0.7;
+  opacity: 1;
+  -webkit-box-shadow: 5 0 10px 20px #000 inset;
+-moz-box-shadow: 5 0 10px 20px #000 inset;
+box-shadow: 5 0 10px 20px #000 inset;
 }
 
 iframe.video
