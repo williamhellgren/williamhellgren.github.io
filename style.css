@@ -31,11 +31,15 @@ div.Header > h1
 }
 a.button_left:hover
 {
-  background-color: blue;
+  background-color: gray;
+  -webkit-transition: background-color 0.1s ease;
+  transition: background-color 0.1s ease;
 }
 a.button_right:hover
 {
-  background-color: blue;
+  background-color: gray;
+  -webkit-transition: background-color 0.1s ease;
+  transition: background-color 0.1s ease;
 }
 img.download
 {
@@ -54,8 +58,10 @@ a.button_left
   font-size: 60;
   opacity: 0.7;
   background-color: white;
-  border-radius: 40px;
-  padding: 10px;
+  border-radius: 50%;
+  padding: 1%;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 a.button_right
 {
@@ -65,8 +71,10 @@ a.button_right
   font-size: 60;
   opacity: 0.7;
   background-color: white;
-  border-radius: 40px;
-  padding: 10px;
+  border-radius: 50%;
+  padding: 1%;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 div.Main_Container > img
 {
@@ -80,39 +88,40 @@ div.Main_Container > img
 a.Headline
 {
   margin-top: -0.7%;
-  width: 25%;
+  width: 33.3333333%;
   float: left;
   opacity: 0.5;
   height: 6%;
   background-color: green;
 
-  box-shadow: 15px 15px 40px black;
+  box-shadow: 0px 2px 4px black;
   text-decoration: none;
   color: black;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
-  -webkit-box-shadow: 1 0 5px 10px #000 inset;
-  -moz-box-shadow: 1 0 5px 10px #000 inset;
-  box-shadow: 1 0 5px 10px #000 inset;
+  -webkit-transition: box-shadow 0.3s ease;
+	transition: box-shadow 0.3s ease;
 }
 a.Headline:hover
 {
-  background-color: black;
+  box-shadow: 0px 1px 1px green;
+	-webkit-transition: box-shadow 0.3s ease;
+	transition: box-shadow 0.3s ease;
 }
 div.first_set
 {
 }
 img.first_image
 {
-  box-shadow: 8px 8px 20px black;
+  box-shadow: 1px 1px 4px black;
   position: absolute;
   left: 10%;
   width: 35%;
   margin: -40px 0;
   -webkit-border-top-left-radius: 20%;
--webkit-border-top-right-radius: 20%;
--webkit-border-bottom-left-radius: 20%;
--webkit-border-bottom-right-radius: 20%;
+  -webkit-border-top-right-radius: 20%;
+  -webkit-border-bottom-left-radius: 20%;
+  -webkit-border-bottom-right-radius: 20%;
   margin-top: -4%;
   float: left;
 }
@@ -134,17 +143,23 @@ div.text_second_image
   text-align: center;
 
 }
+img.second_image:before banner1
+{
+  -webkit-box-shadow: 0 0 20px #333;
+  box-shadow: 0 0 20px #333;
+
+}
 img.second_image
 {
-  box-shadow: 8px 8px 20px black;
+  box-shadow: 1px 1px 4px black;
   position: absolute;
   right: 10%;
   width: 35%;
   margin: -40px 0;
   -webkit-border-top-left-radius: 20%;
--webkit-border-top-right-radius: 20%;
--webkit-border-bottom-left-radius: 20%;
--webkit-border-bottom-right-radius: 20%;
+  -webkit-border-top-right-radius: 20%;
+  -webkit-border-bottom-left-radius: 20%;
+  -webkit-border-bottom-right-radius: 20%;
   margin-top: -4%;
 }
 div.banner1
@@ -250,8 +265,9 @@ div.body_about_textholder
   border-width: 1px;
   opacity: 1;
   -webkit-box-shadow: 5 0 10px 20px #000 inset;
--moz-box-shadow: 5 0 10px 20px #000 inset;
-box-shadow: 5 0 10px 20px #000 inset;
+  -moz-box-shadow: 5 0 10px 20px #000 inset;
+  box-shadow: 5 0 10px 20px #000 inset;
+  opacity: 0.8;
 }
 
 iframe.video
