@@ -212,7 +212,17 @@ div.body_about
   -webkit-box-shadow: 0 0 20px #333;
   box-shadow: 0 0 20px #333;
   background: url('6.png') center 0 repeat;
-  height: 1000px;
+  height: auto;
+}
+
+div.body_about_trailer
+{
+  margin-left: 24%;
+  margin-top: 10%;
+  -webkit-box-shadow: 0 0 20px #333;
+  box-shadow: 0 0 20px #333;
+  background: url('6.png') center 0 repeat;
+  height: 800px;
 }
 
 div.Header_about
@@ -255,7 +265,7 @@ div.body_about_textholder
 {
   z-index: 2;
   text-align: center;
-  height: 600px;
+  height: auto;
   border-radius: 30;
   width: 70%;
   background-color: #ff884d;
